@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+}
+.sign-in{
+    display: flex;
+    float: right;
+    margin-right: 30px;
+}
+.container .image{
+    background-image: url("images/register.png");
+    width: 130%;
+    height: 700px;
+    background-size: cover;
+    position: relative;
+    flex: 1.75;
+}
+.champs{
+    margin-top: 80px;
+    justify-content: center;
+}
+.register{
+    flex: 1;
+    margin-left: 80px;
+}
+input{
+    width: 350px;
+    height: 35px;
+    border: 1px solid;
+}
+.submit button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(110, 84, 176);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+}
+h5{
+    margin-bottom: 5px;
+}
+.sign-in button{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sign-in button:hover{
+    background-color: rgb(110, 84, 176);
+}
+input:hover{
+    border-color: rgb(110, 84, 176);
+}
+.create-with{
+    display: flex;
+    margin-top: 30px;
+}
+figure img{
+    margin-top: -4px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+figure{
+    margin-left: 10px;
+}
+
