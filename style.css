@@ -64,7 +64,14 @@ figure img{
     border-radius: 100%;
     border: 1px solid;
 }
+figure a{
+    padding: 10px;
+}
 figure{
     margin-left: 10px;
+}
+h4{
+    margin-top: -15px;
+    color: rgb(165, 164, 164);
 }
 
