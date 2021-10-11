@@ -31,5 +31,36 @@ h5{
 input:hover{
     border-color: rgb(110, 84, 176);
 }
+@media (max-width: 768px){
+    .illustration img{
+        margin-top: 12rem !important;
+    }
+}
+@media (max-width: 540px){
+    .illustration img{
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+    }
+}
+@media (max-width: 280px){
+    .create-with{
+        flex-direction: column;
+    }
+    figure img{
+        margin-left: 1.75rem;
+        text-align: center;
+    }
+    .account{
+        width: 100%;
+        font-size: 14px;
+    }
+    .sign-in button{
+     font-size: 10px;
+     width: 30%;
+    }
+    .sign-in{
+        float: none !important;
+    }
+}
 
 
